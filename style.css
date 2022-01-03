@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url(./Assets/Images/Race\ Track.jpeg);
+  background-size: cover;
+  background-position: center;
+}

@@ -29,7 +29,7 @@ let cars = [
       "The Ford GT is a mid-engine two-seater sports car manufactured and marketed by American automobile manufacturer Ford. The second generation Ford GT became available for the 2017 model year.",
   },
   {
-    Image: "./Assets/Images/Aston_Martin_DB9.jpg",
+    Image: "./Assets/Images/McLaren_720S.jpg",
     Make: "McLaren",
     Model: "720S",
     Facts:
@@ -40,5 +40,5 @@ let cars = [
 for (let i = 0; i < cars.length; i++) {
   document.getElementById(
     "cars"
-  ).innerHTML += `<div> <img src="${cars[i].Image}" style="width: 300px; height: 150px"> <br> ${cars[i].Make} <br> ${cars[i].Model} <br> ${cars[i].Facts} <br> </div>`;
+  ).innerHTML += `<div class="fw-white"> <br> <img src="${cars[i].Image}" class="mb-3" style="width: 300px; height: 150px"> <br> ${cars[i].Make} <br> ${cars[i].Model} <br> ${cars[i].Facts} <br> </div>`;
 }
